@@ -5,7 +5,7 @@ public class CelsiusToFahrenheit2{
         double celsiusDgrees;
         double fahrenheitDgrees;
         
-        System.out.println("Type double and press ENTER");
+        System.out.println("Enter a number for Celsius and press ENTER:");
 
         Scanner inputScanner = new java.util.Scanner(System.in);
         celsiusDgrees = inputScanner.nextDouble();
